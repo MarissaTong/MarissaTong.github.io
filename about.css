@@ -1,0 +1,114 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    font-weight: bold;
+    font-family: "Georgia";
+    text-decoration: None;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: black;
+  }
+
+h1 {
+    font-family : "Arial Black", Gadget, sans-serif;
+}
+
+.t1 {
+  position: absolute; 
+  top: 50%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* display: inline-block; */
+  white-space: wrap;
+  display: flex;
+  flex-wrap: nowrap; 
+  border-right: .15em solid orange; /* The typwriter cursor */
+  margin: 10 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+  
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+} 
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+} 
+
+
+p {
+    font-family: "Tahoma" ; 
+    font-weight: bold;
+} 
+
+
+body, html {
+    background-color: black;
+    height: 100%;
+    /* margin: 0; */
+    /* background-image: linear-gradient(rgba(37,36,36,0.6),rgba(37, 36, 36, 0.6)),url("/Users/marissatong/Desktop/HTML/Website/GoldenGateBridge.jpg");
+    background-size: cover;
+    background-position: scroll;  */
+}
+
+.bg-image{
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.img1{
+    background-image: url("/Users/marissatong/Desktop/HTML/Website/GoldenGateBridge.jpg");
+}
+
+.img2{
+    background-image: url("/Users/marissatong/Desktop/HTML/Website/vball\ pic\ 1.jpg");
+}
+
+.img3{
+    background-image: url("/Users/marissatong/Desktop/HTML/Website/UCI.jpg");
+}
+
+.img4{
+  background-image: url("/Users/marissatong/Desktop/HTML/Website/running.jpg");
+}
+
+.bg-text {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+ 
+
+ 

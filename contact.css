@@ -1,0 +1,101 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    font-weight: bold;
+    font-family: "Georgia";
+    text-decoration: None;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: black;
+}
+
+body {
+    background-color: lightcyan;
+    /* background-image: url("/Users/marissatong/Desktop/HTML/Website/sparkle.gif");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px 20px;
+    font-size: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 35px;  
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    }
+  
+  /* linkedin */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  }
+
+   /* github */
+   .fa-github {
+    background: black;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* gmail */
+  .gmail {
+    background-image: url("https://image.flaticon.com/icons/svg/888/888853.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 20px;
+    font-size: 200px;
+    width: 200px;
+    color: lightgray;
+    position: fixed;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+  
