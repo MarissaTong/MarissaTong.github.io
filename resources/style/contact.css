@@ -11,7 +11,7 @@ li {
     float: right;
 }
 
-li a {
+a {
     display: inline-block;
     color: white;
     text-align: center;
