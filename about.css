@@ -88,19 +88,19 @@ body, html {
 }
 
 .img1{
-    background-image: url("/Users/marissatong/Desktop/HTML/Website/GoldenGateBridge.jpg");
+    background-image: url("GoldenGateBridge.jpg");
 }
 
 .img2{
-    background-image: url("/Users/marissatong/Desktop/HTML/Website/vball\ pic\ 1.jpg");
+    background-image: url("vball\ pic\ 1.jpg");
 }
 
 .img3{
-    background-image: url("/Users/marissatong/Desktop/HTML/Website/UCI.jpg");
+    background-image: url("UCI.jpg");
 }
 
 .img4{
-  background-image: url("/Users/marissatong/Desktop/HTML/Website/running.jpg");
+  background-image: url("running.jpg");
 }
 
 .bg-text {

@@ -35,7 +35,7 @@ li a {
 
 body {
     background-color: white;
-    background-image:  url("/Users/marissatong/Desktop/HTML/Website/code.gif");
+    background-image:  url("code.gif");
     background-size: cover;
 }
 
