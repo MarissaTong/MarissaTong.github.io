@@ -88,19 +88,19 @@ body, html {
 }
 
 .img1{
-    background-image: url("GoldenGateBridge.jpg");
+    background-image: url("../img/GoldenGateBridge.jpg");
 }
 
 .img2{
-    background-image: url("vball\ pic\ 1.jpg");
+    background-image: url("../img/vball\ pic\ 1.jpg");
 }
 
 .img3{
-    background-image: url("UCI.jpg");
+    background-image: url("../img/UCI.jpg");
 }
 
 .img4{
-  background-image: url("running.jpg");
+  background-image: url("../img/running.jpg");
 }
 
 .bg-text {

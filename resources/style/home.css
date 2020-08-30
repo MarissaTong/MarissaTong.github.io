@@ -24,15 +24,6 @@ li a {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: black;
-  }
-
-h1 {
-    font-family : "Arial Black", Gadget, sans-serif;
-}
-
-p {
-    font-family: "Tahoma" ; 
-    font-weight: bold;
 }
 
 .profile {
@@ -42,18 +33,13 @@ p {
     margin-left: 250px;
 }
 
-
-
 body {
     background-color: white;
-    background-image: linear-gradient(rgba(37,36,36,0.6),rgba(37, 36, 36, 0.6)),url('/Users/marissatong/Desktop/HTML/GoldenGateBridge.jpg');
-    background-position:center;
+    background-image:  url("../img/code.gif");
     background-size: cover;
 }
 
-
-
-  .talkbubble:before {
+.talkbubble:before {
     content: "";
     position: absolute;
     right: 100%;
@@ -63,18 +49,18 @@ body {
     border-top: 13px solid transparent;
     border-right: 26px solid white;
     border-bottom: 13px solid transparent;
-  }
 
-  .talkbubble {
-    width: 120px;
-    height: 80px;
+}
+
+.talkbubble {
+    width: 360px;
+    height: 240px;
     background:white;
     position: relative;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-  }
+    left: 45%;
+    /* transform: translate(200%, 50%); */
 
- 
-
- 
+}
