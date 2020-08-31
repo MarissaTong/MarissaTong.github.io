@@ -1,36 +1,5 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 30px;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    display: inline;
-    float: right;
-}
-
-a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 18px 16px;
-    font-weight: bold;
-    font-family: "Georgia";
-    text-decoration: None;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: black;
-}
-
 body {
     background-color: lightcyan;
-    /* background-image: url("/Users/marissatong/Desktop/HTML/Website/sparkle.gif");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 /* Style all font awesome icons */
@@ -48,7 +17,6 @@ body {
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
-
   }
   
   /* Set a specific color for each brand */
@@ -92,10 +60,12 @@ body {
     font-size: 200px;
     width: 200px;
     color: lightgray;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 85%;
     transform: translate(-50%, -50%);
   }
+
+
 
   

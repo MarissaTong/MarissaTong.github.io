@@ -2,26 +2,29 @@
 
 <html> <!--  <tagname>content</tagname>  //element names surrounded by angle brackets -->
 
-<ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="index.html">Home</a></li>
-    <a href = "/resources/pdfs/Resume.pdf" download> Download Resume</a>
-</ul>
+<script src="home.js"></script>
 
 <head>
     <title> Marissa's Website! </title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/resources/style/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#NavBar').load("NavBar.html");
+        });
+    </script>
+
 </head>  
 
 <body>
-
+    <div id="NavBar"></div>
     <p> 
         <div class = "talkbubble"> <div class = "chatwords"> print("Hello World!") <br> I'm Marissa Tong, Welcome to my website! Feel free to explore to learn more about me and my work</br> </div> </div>
+
         <img class = "profile" src = "resources/img/profile.JPG" width = "256" height = "256" style="border:5px solid lightgrey">
     </p> 
 
 </body>  
+    
 </html>

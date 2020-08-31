@@ -3,31 +3,31 @@
 
 <html> <!--  <tagname>content</tagname>  //element names surrounded by angle brackets -->
 
-<ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="index.html">Home</a></li>
-    <a href = "/resources/pdfs/Resume.pdf" download> Download Resume</a>
-
-</ul>
-
-<div class = "bg-image img1"></div>
-<div class = "bg-image img2"></div>
-<div class = "bg-image img3"></div>
-<div class = "bg-image img4"></div>
-
-
 <head>
-        <div class = "bg-text t1">Born September 13th, 2000 and raised in San Francisco.</div>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/resources/style/about.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#NavBar').load("NavBar.html");
+        });
+    </script>
 </head>  
+
 <body>
+    <div id="NavBar"></div>
+
+    <div class = "bg-image img1"></div>
+    <div class = "bg-image img2"></div>
+    <div class = "bg-image img3"></div>
+    <div class = "bg-image img4"></div>
+
+    <div class = "bg-text t1">Born September 13th, 2000 and raised in San Francisco.</div>
 
     <p> 
-       
     </p>
+
 </body>
     
 </html>
