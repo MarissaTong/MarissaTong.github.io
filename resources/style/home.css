@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-.chatwords{
+#chatwords{
     position: absolute;
     color: white;
     font-weight: bold;

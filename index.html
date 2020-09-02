@@ -2,7 +2,7 @@
 
 <html> <!--  <tagname>content</tagname>  //element names surrounded by angle brackets -->
 
-<script src="home.js"></script>
+<script src="/resources/script/home.js" type="text/javascript"></script> 
 
 <head>
     <title> Marissa's Website! </title>
@@ -20,10 +20,15 @@
 <body>
     <div id="NavBar"></div>
     <p> 
-        <div class = "talkbubble"> <div class = "chatwords"> print("Hello World!") <br> I'm Marissa Tong, Welcome to my website! Feel free to explore to learn more about me and my work</br> </div> </div>
-
+        <div class = "talkbubble" > <div id = "chatwords" style = "opacity: 0;"> print("Hello World!") <br> I'm Marissa Tong, Welcome to my website! Feel free to explore to learn more about me and my work </br> </div> </div>
         <img class = "profile" src = "resources/img/profile.JPG" width = "256" height = "256" style="border:5px solid lightgrey">
     </p> 
+
+    <script type="text/javascript"> 
+        var opacity = 0; 
+        var intervalID = 0; 
+        setInterval ( function (){fade("chatwords");}, 400);
+    </script>
 
 </body>  
     
