@@ -11,16 +11,10 @@ function fade(element) {
 
 function fadeIn(element) { 
     setTimeout( show, 200, element); 
-    // setInterval( function () {show(element);}, 200); 
-    // setTimeout(() => { clearInterval(timerId); alert('stop'); }, 10000);
-
 } 
 
 function fadeOut(element) {
     setTimeout( hidden, 200,element); 
-    // setInterval(function() {hidden(element);}, 200);
-    // setTimeout(() => { clearInterval(timerId); alert('stop'); }, 10000);
-
 }
 
 function show(element) { 

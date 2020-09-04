@@ -1,25 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 h1 {
     font-family : "Arial Black", Gadget, sans-serif;
 }
 
-.t1 {
-  /* position: absolute;  */
-  /* overflow: hidden; Ensures the content is not revealed until the animation */
-  /* white-space: nowrap; */
-}
-
-  
-p {
-    font-family: "Tahoma" ; 
-    font-weight: bold;
-} 
-
 
 body, html {
     background-color: black;
     height: 100%;
- 
 }
 
 .bg-image{
@@ -30,36 +18,41 @@ body, html {
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    /* top: 50%; */
+    text-align: center;
+
     /* background-image: linear-gradient(rgba(37,36,36,0.6),rgba(37, 36, 36, 0.6)); */
 }
 
 .img1{
     background-image: linear-gradient(rgba(80, 79, 79, 0.6),rgba(46, 45, 45, 0.6)),url("../img/GoldenGateBridge.jpg");
-}
+  }
 
 .img2{
     background-image: linear-gradient(rgba(80, 79, 79, 0.6),rgba(46, 45, 45, 0.6)),url("../img/vball\ pic\ 1.jpg");
-
 }
 
 .img3{
     background-image: linear-gradient(rgba(80, 79, 79, 0.6),rgba(46, 45, 45, 0.6)),url("../img/UCI.jpg");
-
 }
 
 .img4{
   background-image: linear-gradient(rgba(80, 79, 79, 0.6),rgba(46, 45, 45, 0.6)),url("../img/running.jpg");
-
 }
 
-.bg-text {
+/* .bg-text {
   position: relative; 
   color: rgb(216, 216, 216);
+  font-family: 'Source Code Pro', monospace;  
   font-weight: bold;
   font-size: 30px;
   top: 50%;
   text-align: center;
-}
+} */
 
  
 
